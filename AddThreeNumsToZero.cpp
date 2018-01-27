@@ -27,7 +27,6 @@ vector<vector<int>> addThreeNumsToZero(std::vector<int> numbers){
 				solution.push_back(numbers[start]);
 				solution.push_back(numbers[end]);
 				result.push_back(solution);
-				//cout << "{" << solution[0] << ", " << solution[1] << ", " << solution[2] << "}" << endl;
 				start++; 
 				end--;
 			}
