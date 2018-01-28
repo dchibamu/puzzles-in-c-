@@ -7,7 +7,7 @@ vector<int> findThreeIntsWithSumClosetToTarget(vector<int> nums, int target){
 	int min, sum;
 	vector<int> solution;
 	sort(nums.begin(), nums.end());
-	for(int i = 0; i < nums.size(); i++){
+	for(int i = 0; i < nums.size() -1; i++){
 		int start = i + 1;
 		int end = nums.size() - 1;
 
@@ -15,6 +15,7 @@ vector<int> findThreeIntsWithSumClosetToTarget(vector<int> nums, int target){
 			sum = nums[start] +nums[end] + nums[i];
 			if(sum == target){
 				solution.clear();
+				
 				solution.insert(solution.end(), {nums[i], nums[start],nums[end]});
 				min = 0;
 				break;
@@ -41,9 +42,10 @@ vector<int> findThreeIntsWithSumClosetToTarget(vector<int> nums, int target){
 
 int main(int argc, char** argv){
 	using numVector = vector<int>;
-	initializer_list<int> initList{-15, -8, -3, -1, 2, 4, 7, 9, 13, 14, 17};
+	//initializer_list<int> initList{-15, -8, -3, -1, 2, 4, 7, 9, 13, 14, 17};
+	initializer_list<int> initList{-1, 1, 4, 7, 14};
 	numVector numbers(initList);
-	int target = 46;
+	int target = 2;
 	vector<int> solution = findThreeIntsWithSumClosetToTarget(numbers, target);
 	cout << "{" << solution[0] << ", " << solution[1] << ", " << solution[2] << "}" << endl;
 
