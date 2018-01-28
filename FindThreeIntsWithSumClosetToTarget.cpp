@@ -42,10 +42,10 @@ vector<int> findThreeIntsWithSumClosetToTarget(vector<int> nums, int target){
 
 int main(int argc, char** argv){
 	using numVector = vector<int>;
-	//initializer_list<int> initList{-15, -8, -3, -1, 2, 4, 7, 9, 13, 14, 17};
-	initializer_list<int> initList{-1, 1, 4, 7, 14};
+	initializer_list<int> initList{-15, -8, -3, -1, 2, 4, 7, 9, 13, 14, 17};
+	//initializer_list<int> initList{-1, 1, 4, 7, 14};
 	numVector numbers(initList);
-	int target = 2;
+	int target = -17;
 	vector<int> solution = findThreeIntsWithSumClosetToTarget(numbers, target);
 	cout << "{" << solution[0] << ", " << solution[1] << ", " << solution[2] << "}" << endl;
 
