@@ -51,6 +51,6 @@ The solution is well tested with junit 5 and hamcrest library. The main class is
 			bin/parking_lot <input file>
 			```
 
-			<input file> must be replaced with file with parking lot commands. Using the one provided for this challenge the command will be as below.
+			\<input file\> must be replaced with file with actual parking lot commands file. Using the one provided for this challenge the command will be as below.
 			
 			bin/parking_lot file_inputs.txt
