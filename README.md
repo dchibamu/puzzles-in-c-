@@ -2,7 +2,7 @@
 
 The solution is provided with Java language, using the basic maven folder structure comprising of 3 packages;
 - domain - contains the POJO for car,slot and commands
-- service - business logic that models and run the parking lot service
+- service - business logic that models and run the parking lot service. The solution is provided with HashMap and PriorityQueue. Intellij test coverage reported 100% on ParkingLot class methods
 - util - a group of constants
 
 The solution is well tested with junit 5 and hamcrest library. The main class is configured in the pom file. 
@@ -40,7 +40,7 @@ The solution is well tested with junit 5 and hamcrest library. The main class is
 	```
 	bin/parking_lot
 	```
-	Above command will launch the program,but all you will see is the blinking cursor. No interactive helpful instructions were provided.Just type the first command: create_parking_lot <N>, where N is the size of the parking lot.
+	Above command will launch the program,but all you will see is the blinking cursor. No interactive helpful instructions were provided.Just type the first command: create_parking_lot \<N\>, where N is the size of the parking lot.
 
 	- To run parking lot from file input execute following commands
 		1.	```
