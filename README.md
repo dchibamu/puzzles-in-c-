@@ -30,9 +30,8 @@ The solution is well tested with junit 5 and hamcrest library. The main class is
 	chmod +x bin/setup
 	chmod +x bin/parking_lot
 	```
-4.  Running the application
-	make sure you are in parking_lot directory. 
-	i.	To run interactive parking lot run following instruction
+4.  Running the application make sure you are in parking_lot directory. 
+	-	i.	To run interactive parking lot run following instruction
 			```
 			bin/setup
 			```
@@ -41,7 +40,7 @@ The solution is well tested with junit 5 and hamcrest library. The main class is
 			bin/parking_lot
 			```
 			Above command will launch the program,but all you will see is the blinking cursor. No interactive helpful instructions were provided.Just type the first command: create_parking_lot <N>, where N is the size of the parking lot.
-	ii.	To run parking lot from file input execute following commands
+	-	ii.	To run parking lot from file input execute following commands
 			```
 			bin/setup
 			```
