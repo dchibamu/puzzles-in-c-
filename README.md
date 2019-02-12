@@ -1,7 +1,6 @@
 # Parking Lot Solution
 
 The solution is provided with Java language, using the basic maven folder structure comprising of 3 packages;
-
 -domain - contains the POJO for car,slot and commands
 -service - business logic that models and run the parking lot service
 -util - a group of constants
