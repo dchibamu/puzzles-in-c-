@@ -32,23 +32,22 @@ The solution is well tested with junit 5 and hamcrest library. The main class is
 	```
 4.  Running the application make sure you are in parking_lot directory. 
 	-	i.	To run interactive parking lot run following instruction
-			```
-			bin/setup
-			```
+			-	```
+				bin/setup
+				```
 			Above command compiles runs unit test and build parking_lot.jar
-			```
-			bin/parking_lot
-			```
+			-	```
+				bin/parking_lot
+				```
 			Above command will launch the program,but all you will see is the blinking cursor. No interactive helpful instructions were provided.Just type the first command: create_parking_lot <N>, where N is the size of the parking lot.
 	-	ii.	To run parking lot from file input execute following commands
-			```
-			bin/setup
-			```
+			-	```
+				bin/setup
+				```
 			Above command compiles runs unit test and build parking_lot.jar
-
-			```
-			bin/parking_lot <input file>
-			```
+			-	```
+				bin/parking_lot <input file>
+				```
 			<input file> must be replaced with file with parking lot commands. Using the one provided for this challenge the command will be as below.
-			```
+			
 			bin/parking_lot file_inputs.txt
